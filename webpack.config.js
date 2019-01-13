@@ -11,7 +11,7 @@ module.exports = {
         use: [{ loader: 'html-loader', options: { minimize: true } }]
       },
       {
-        test: /\.(png|jpe?g)/i,
+        test: /\.(png|jpe?g|gif)/i,
         use: [
           {
             loader: 'url-loader',
